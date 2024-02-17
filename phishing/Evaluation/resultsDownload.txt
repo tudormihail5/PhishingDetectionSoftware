@@ -1,0 +1,43 @@
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'L']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'L']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'L']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'L']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'L']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'L']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} P
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+{'status': 'success', 'result_count': 1, 'detailed_results': [['malicious files', 'P']]} ERR
+
+My software accuracy: test 1 - 100%, overall - 100%
+URLVoid accuracy: 18.75%, 81.25% error
