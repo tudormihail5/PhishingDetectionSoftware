@@ -29,6 +29,7 @@ def calculate_gini_index(groups, classes):
             for row in group:
                 # Extract the class label (result)
                 class_labels.append(row[-1])
+            # How many times the class value is inside the class labels list
             p = class_labels.count(class_val) / size
             score += p * p
         # Measure the impurity of a dataset, or how well a feature splits the data in terms of separating the classes
@@ -144,9 +145,6 @@ def subsample(dataset, ratio):
     # Create a random subset of the original dataset, for training each decision tree within the Random Forest (bootstrap sample)
     return sample
 
-def train_tree(sample, max_depth, min_size, n_features):
-    return build_decision_tree(sample, max_depth, min_size, n_features)
-
 def bagging_predict(trees, row):
     predictions = []
     for tree in trees:
@@ -171,7 +169,7 @@ def random_forest(train, max_depth, min_size, sample_size, n_trees, n_features, 
     with ProcessPoolExecutor(max_workers=n_jobs) as executor:
         futures = []
         for sample in samples:
-            # Submit the train_tree function for asynchronous execution and append to the futures list
+            # Submit the build_decision_tree function for asynchronous execution and append to the futures list
             futures.append(executor.submit(build_decision_tree, sample, max_depth, min_size, n_features))
         # Wait for each task to complete
         for future in concurrent.futures.as_completed(futures):
