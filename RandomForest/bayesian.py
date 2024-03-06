@@ -51,7 +51,7 @@ space = {
 
 # Run the optimization
 trials = Trials()
-best_indices = fmin(fn=objective, space=space, algo=tpe.suggest, max_evals=10, trials=trials)
+best_indices = fmin(fn=objective, space=space, algo=tpe.suggest, max_evals=50, trials=trials)
 
 # Decode the best hyperparameters
 best_hyperparameters = {
