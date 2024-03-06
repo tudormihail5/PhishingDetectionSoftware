@@ -25,7 +25,7 @@ def download_file(url):
         # Navigate to the URL
         driver.get(url)
         # Wait for the download to complete
-        time.sleep(5)
+        time.sleep(8)
         # Check the download directory for files
         downloaded_files = os.listdir(download_path)
         if len(downloaded_files) > 1:
