@@ -115,6 +115,7 @@ def list_history(request):
 
 def search_view(request):
     query = request.GET.get('search', '')
+    query = query.replace(' ', '').replace('\t', '')
     if query:
         results = UrlRecord.objects.filter(url__icontains=query)
     else:
