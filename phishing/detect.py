@@ -515,7 +515,7 @@ def get_driver(url):
         current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         driver_path = os.path.join(current_directory, 'chromedriver')
         service = Service(executable_path=driver_path)
-        # Initialize the Chrome WebDriver with the specified optionss
+        # Initialize the Chrome WebDriver with the specified options
         driver = webdriver.Chrome(service=service, options=options)
         driver.get(url)
         # Set a 10 seconds timeout and wait for page to load completely
