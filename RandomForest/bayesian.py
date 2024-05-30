@@ -25,7 +25,7 @@ def make_predictions(forest, test_data):
         predictions.append(randomForest.bagging_predict(forest, row))
     return predictions
 
-# Perform hyperparameter optimization
+# Perform hyperparameter optimisation
 def objective(params):
     # Define the search space for hyperparameters
     max_depth = int(params['max_depth'])
@@ -49,7 +49,7 @@ space = {
     'n_trees': hp.quniform('n_trees', 1, 500, 1)
 }
 
-# Run the optimization
+# Run the optimisation
 trials = Trials()
 best_indices = fmin(fn=objective, space=space, algo=tpe.suggest, max_evals=50, trials=trials)
 
@@ -62,7 +62,7 @@ best_hyperparameters = {
 }
 print('Best Hyperparameters:', best_hyperparameters)
 
-# Find the best model performance achieved during the optimization
+# Find the best model performance achieved during the optimisation
 best_accuracy = 0
 for trial in trials.trials:
     if trial['result']['accuracy'] > best_accuracy:
