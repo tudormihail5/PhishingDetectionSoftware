@@ -15,7 +15,7 @@ y_train = train_df['Result']
 x_validation = validation_df.drop('Result', axis=1)
 y_validation = validation_df['Result']
 
-# Perform hyperparameter optimization
+# Perform hyperparameter optimisation
 def objective(params):
     # Define the search space for hyperparameters
     n_estimators = int(params['n_estimators'])
@@ -38,7 +38,7 @@ space = {
     'min_samples_split': hp.quniform('min_samples_split', 2, 100, 1)
 }
 
-# Run the optimization
+# Run the optimisation
 trials = Trials()
 best_indices = fmin(fn=objective, space=space, algo=tpe.suggest, max_evals=50, trials=trials)
 
@@ -50,7 +50,7 @@ best_hyperparameters = {
 }
 print('Best Hyperparameters:', best_hyperparameters)
 
-# Find the best model performance achieved during the optimization
+# Find the best model performance achieved during the optimisation
 best_accuracy = 0
 for trial in trials.trials:
     if trial['result']['accuracy'] > best_accuracy:
