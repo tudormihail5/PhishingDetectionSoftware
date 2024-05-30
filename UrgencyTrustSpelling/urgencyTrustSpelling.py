@@ -199,7 +199,7 @@ def urgency_trust_spelling(url):
     text, length = get_text_from_url(url)
     # Sum the 2 cues scores
     urgency_trust_score = detect_urgency_cues(text) + detect_trust_cues(text)
-    # Apply all the spelling checkers and use parallel execution to speed up the analysis
+    # Apply all the spelling checkers and use parallel execution for speeding up the analysis
     with ProcessPoolExecutor(max_workers=4) as executor:
         # Submit tasks for execution
         future1GB = executor.submit(detect_spelling_errors1GB, text)
