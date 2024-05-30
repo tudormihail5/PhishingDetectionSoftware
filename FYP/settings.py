@@ -25,9 +25,6 @@ SECRET_KEY = 'django-insecure-aim9$jvncb(79=)n8li=9kma-_k!6%mevplmpxr2%hd#am)+&3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -127,5 +124,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
-ALLOWED_HOSTS = ["127.0.0.1", "chrome-extension://ceilfadpgacikllhlebonaecbefabkpn"]
-CSRF_TRUSTED_ORIGINS = ["chrome-extension://ceilfadpgacikllhlebonaecbefabkpn"]
+ALLOWED_HOSTS = ["127.0.0.1", "chrome-extension://fgonjngoipfpjnkbbhdjjdhlbicjjeif"]
+CSRF_TRUSTED_ORIGINS = ["chrome-extension://fgonjngoipfpjnkbbhdjjdhlbicjjeif"]
