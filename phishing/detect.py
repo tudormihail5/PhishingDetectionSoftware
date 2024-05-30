@@ -391,7 +391,7 @@ def forwarding(url):
         current_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         driver_path = os.path.join(current_directory, 'chromedriver')
         service = Service(executable_path=driver_path)
-        # Initialise the Chrome WebDriver with the specified options
+        # Initialise the Chrome WebDriver using the specified options
         driver = webdriver.Chrome(service=service, options=options)
         driver.get(url)
         redirect_count = 0
