@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'stylesH.css' %}">
+</head>
+
+<body>    
+    <a href="{% url 'home' %}" class="back-btn">Back</a>
+    <h1>Help</h1>
+    <ul>
+        <li>This is an advanced phishing detector. If you believe a website is trying to steal your information, copy its URL and paste it in our website, then click 'Check URL'.</li>
+        <li>The URL must start with the protocol, e.g., https://canvas.bham.ac.uk/. If the URL is invalid, a message will be displayed on the screen.</li>
+        <li>The results of the tests will be displayed at the bottom of the home screen. The analysis process may take up to 3 minutes, but will likely take less than one minute.</li>
+        <li>Our website uses four phishing detection methods. This is what makes it so accurate. The results are separately displayed on the main page after clicking 'Check URL'.</li>
+        <li>The first method involves checking whether clicking the link triggers a file download. In this case, our software determines whether the file is malicious. If it is, our website displays an informative message, and the website is directly flagged as phishing. If not, the website is considered safe. If the URL does not trigger any download, our software will use the other 3 methods.</li>
+        <li>The second phishing detection method is a machine learning model trained and tested using over 11000 URLs. Each submitted website is analysed based on 26 attributes. For example, these attributes include the use of an IP address, URL length, and utilisation of a URL shortening service, among others. Based on these attributes, the model is able to predict whether the website is a phishing attempt or not.</li>
+        <li>The third method consists of a content-based filtering algorithm. This method is only available for websites in English; therefore, check the 'Website in English' box if applicable. It looks for the use of urgency language, trust cues and spelling errors. But keep in mind: if the website has words from other languages, it will likely be labelled as phishing, even though that might not be the case.</li>
+        <li>The fourth and last method checks 4 constantly updated public blacklists and displays the result.</li>
+        <li>The 'History' section is located in the top-left corner. You can find there all the websites that were checked by our users, together with the results. The results are in the same order as they appeared on the home screen: machine learning model, language check (if the 'Website in English' checkbox is checked) and blacklists, in this order. In case the URL triggers a file download, there will be only the result of this test, together with a suggestive message. Under the history table you can find the translation of the history abbreviations.</li>
+        <li>Our 'History' has a search bar on the top of the page. If you wish to see whether a specific website was previously checked by our detector, you can type a keyword, click 'Search', and the page will display the corresponding results.</li>
+        <li>In the top-right corner, you can find the 'Help' section.</li>
+        <li>We released a phishing detection extension for Google Chrome as well. After installing the extension in your Chrome browser, click the round blue icon in the top-right corner when browsing a suspicious website. Click one of the two buttons, depending on the language of the website, and wait for the results to be displayed. The extension uses the same phishing detection methods as our software, except the malicious downloads one.</li>
+    </ul>
+</body>
+
+</html>
