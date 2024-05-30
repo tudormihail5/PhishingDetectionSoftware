@@ -220,6 +220,7 @@ def urgency_trust_spelling(url):
     intersection_set1 = set(spelling_errors1GB).intersection(set(spelling_errors1US))
     intersection_set2 = intersection_set1.intersection(set(spelling_errors2))
     intersection_set = intersection_set2.intersection(set(spelling_errors_dictionary))
+    # Consider the unfinished words, e.g., beginning of news
     spelling_errors = [word for word in intersection_set if not word.endswith('…')]
     spelling_score = len(spelling_errors)
     if urgency_trust_score != 0 and length / urgency_trust_score < 320 or spelling_score > 0:
