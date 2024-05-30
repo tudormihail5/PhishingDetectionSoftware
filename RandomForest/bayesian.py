@@ -69,7 +69,7 @@ for trial in trials.trials:
         best_accuracy = trial['result']['accuracy']
 print('Best validation accuracy:', best_accuracy)
 
-# Train the best model and save it
+# Train the model using the best combination of hyperparameters and save it
 forest = randomForest.random_forest(train_data, int(best_indices['max_depth']), int(best_indices['min_size']), int(best_indices['sample_size']) / 10, int(best_indices['n_trees']), n_features, n_jobs)
 filename = 'random_forest_model.pkl'
 with open(filename, 'wb') as file:
