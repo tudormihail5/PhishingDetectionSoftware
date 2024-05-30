@@ -57,7 +57,7 @@ for trial in trials.trials:
         best_accuracy = trial['result']['accuracy']
 print('Best validation accuracy:', best_accuracy)
 
-# Train the best model and save it
+# Train the model using the best combination of hyperparameters and save it
 model = RandomForestClassifier(**best_hyperparameters, max_features  = 'sqrt', n_jobs = os.cpu_count())
 model.fit(x_train, y_train)
 filename = 'library_model.pkl'
