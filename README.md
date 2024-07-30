@@ -3,7 +3,8 @@
 ### What it does:
 
 The significance of this software derives from its comprehensive approach to phishing detection, which combines four distinct methods to tackle different aspects of a website: file downloads, the technical part, its text, and its reputation. This multi-faceted strategy is intended to enhance the accuracy of phishing detection and reduce the incidence of false positives and negatives, making the internet a safer place for everyone. 
-The user will copy and paste...
+
+The user can paste an URL inside the text input, click the 'Website in English' checkbox if the website is in English, then click the 'Check URL' button and wait for the results. Clicking the 'History' button from the top left-hand corner will take the user to the 'History' page of the website, which displays all the URLs tested by the users, together with their corresponding results. If the user wants to find a particular URL, they can type a part of it inside the text bar, and click 'Search'. Under the history table there is the translation of the history abbreviations. Clicking the 'Help' button from the opposite top corner will take the user to a comprehensive help page.
 
 ### How I built it:
 
