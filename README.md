@@ -8,7 +8,15 @@ The user will paste an URL inside the text input, click the 'Website in English'
 
 ![PhishingDetection1](https://github.com/tudormihail5/PhishingDetectionSoftware/blob/main/Screenshot1.png)
 
-Clicking the 'History' button from the top left-hand corner will take the user to the 'History' page of the website, which displays all the URLs tested by the users, together with their corresponding results. If the user wants to find a particular URL, they can type a part of it inside the text bar, and click 'Search'. Under the history table there is the translation of the history abbreviations. Clicking the 'Help' button from the opposite top corner will take the user to a comprehensive help page.
+![PhishingDetection2](https://github.com/tudormihail5/PhishingDetectionSoftware/blob/main/Screenshot2.png)
+
+Clicking the 'History' button from the top left-hand corner will take the user to the 'History' page of the website, which displays all the URLs tested by the users, together with their corresponding results. If the user wants to find a particular URL, they can type a part of it inside the text bar, and click 'Search'. Under the history table there is the translation of the history abbreviations.
+
+![PhishingDetection3](https://github.com/tudormihail5/PhishingDetectionSoftware/blob/main/Screenshot3.png)
+
+Clicking the 'Help' button from the opposite top corner will take the user to a comprehensive help page.
+
+![PhishingDetection4](https://github.com/tudormihail5/PhishingDetectionSoftware/blob/main/Screenshot4.png)
 
 ### How I built it:
 
